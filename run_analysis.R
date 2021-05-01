@@ -11,7 +11,7 @@ download.file(url = url, destfile = "./data.zip")
 unzip(zipfile = "./data.zip")
 
 
-#Now we´re gonna take a look on the training and test dataset to see their features and structure 
+
 
 url_training_dataset <-   "./UCI HAR Dataset/train/X_train.txt"
 url_test_dataset <- "./UCI HAR Dataset/test/X_test.txt"
